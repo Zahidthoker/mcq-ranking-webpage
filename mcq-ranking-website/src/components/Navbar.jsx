@@ -8,9 +8,9 @@ function Navbar(){
                 <img  className="h-10" src={logo} alt="" />
             </div>
             <div className=" col-span-2 flex justify-center gap-20 items-center text-gray-400 text-xl font-serif">
-                <Link to="">Subjects</Link>
-                <Link to="">LeaderBoard</Link>
-                <Link to="">Pricing</Link>
+                <Link to="" className="hover:scale-106 hover:text-white">Subjects</Link>
+                <Link to="" className="hover:scale-106 hover:text-white">LeaderBoard</Link>
+                <Link to="" className="hover:scale-106 hover:text-white">Pricing</Link>
                 <button className="bg-white text-black px-4 py-1 rounded-full 
                transform transition-all duration-500 
                hover:scale-105 hover:bg-gray-400 hover:shadow-xl">Login/SignUp</button>
