@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import {Router,Routes,Route,Link} from "react-router-dom"
 function Navbar(){
     return(
-        <div className="grid grid-cols-3 bg-blue-950 w-screen h-12 ">
+        <div className="grid grid-cols-3 bg-blue-950 w-screen h-12 fixed z-10">
             <div className="flex justify-center items-center w-60%">
                 <img  className="h-10" src={logo} alt="" />
             </div>
