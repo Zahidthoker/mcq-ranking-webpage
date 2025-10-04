@@ -4,10 +4,8 @@ import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRight, faTrophy, faRocket} from "@fortawesome/free-solid-svg-icons";
 
 
-function Footer(){
-    return(
-        <div className="flex flex-col w-full h-auto">
-            
+function Banner(){
+    return(            
             <div className="flex justify-center items-center m-5 "> 
                 {/* icon and text book */}
                 <div className="flex flex-col justify-center items-center">
@@ -35,7 +33,7 @@ function Footer(){
                 </div>
                 {/* arrow  */}
                 <div className="w-20 flex  items-center">
-                    <FontAwesomeIcon icon={faArrowRight} size="xl" className="scale-x-300" className="text-gray-400 pb-5 scale-x-300"/>
+                    <FontAwesomeIcon icon={faArrowRight} size="xl" className="scale-x-300 text-gray-400 pb-5"/>
                 </div>
                   {/* icon and text */}
                 <div className="flex flex-col justify-center items-center">
@@ -48,14 +46,7 @@ function Footer(){
 
                 </div>
             </div>
-            <div>
-                <h1>part 2</h1>
-            </div>
-            <div>
-                <h1>part 3</h1>
-            </div>
-        </div>
     )
 }
 
-export default Footer;
+export default Banner;
