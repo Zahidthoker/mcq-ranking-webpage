@@ -16,21 +16,21 @@ function Features(){
                 <FontAwesomeIcon icon={faGlobe} size="4x" beat className="text-blue-400"/>
                 <p className="text-sm text-center mt-2">Vast Question Database</p>
             </div>
-            <div className="flex flex-col justify-center items-center shadow-md p-4 w-30 h-30">
+            <div className="flex flex-col justify-center items-center shadow-md p-4 w-35 h-30">
                 <FontAwesomeIcon icon={faHardDrive} size="4x" className="text-blue-400"/>
-                <p className="text-sm text-center mt-2">Vast Question Database</p>
+                <p className="text-sm text-center mt-2 font-bold">Mathematics <p className="text-sm font-normal">(10k + questions)</p></p>
             </div>
-            <div className="flex flex-col justify-center items-center shadow-md p-4 w-30 h-30">
+            <div className="flex flex-col justify-center items-center shadow-md p-4 w-35 h-30">
                 <FontAwesomeIcon icon={faFlask} size="4x" className="text-blue-400"/>
-                <p className="text-sm text-center mt-2">Vast Question Database</p>
+                <p className="text-sm font-bold text-center mt-2">Science<p className="text-sm font-normal">(10k + questions)</p></p>
             </div>
-            <div className="flex flex-col justify-center items-center shadow-md p-4 w-30 h-30">
+            <div className="flex flex-col justify-center items-center shadow-md p-4 w-35 h-30">
                 <FontAwesomeIcon icon={faHistory} size="4x" className="text-blue-400"/>
-                <p className="text-sm text-center mt-2">Vast Question Database</p>
+                <p className="text-sm font-bold text-center mt-2">History<p className="text-sm font-normal">(10k + questions)</p></p>
             </div>
-            <div className="flex flex-col justify-center items-center shadow-md p-4 w-30 h-30">
+            <div className="flex flex-col justify-center items-center shadow-md p-4 w-35 h-30">
                 <FontAwesomeIcon icon={faFileCode} size="4x" className="text-blue-400"/>
-                <p className="text-sm text-center mt-2">Vast Question Database</p>
+                <p className="text-sm font-bold text-center mt-2">Coding<p className="text-sm font-normal">(10k + questions)</p></p>
             </div>
            
 
