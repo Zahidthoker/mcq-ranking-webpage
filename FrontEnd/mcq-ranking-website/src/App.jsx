@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Banner from "./components/Banner";
 import Features from "./components/Features";
 import {Routes, Route} from "react-router-dom"
+import Subjects from "./pages/Subjects";
 import Login from "./pages/Login";
 import Quiz from "./pages/quiz";
 function App() {
@@ -18,6 +19,7 @@ function App() {
                 </div>
                   }
                 />
+              <Route path="/subjects" element={<Subjects />} />
               <Route path="/login" element={<Login/>}/>
               <Route path="/quiz" element={<Quiz/>}/>
           </Routes>

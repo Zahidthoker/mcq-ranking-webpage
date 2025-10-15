@@ -8,7 +8,7 @@ function Navbar(){
                 <Link to ="/"><img  className="h-10" src={logo} alt="" /></Link>
             </div>
             <div className=" col-span-2 flex justify-center gap-20 items-center text-gray-400 text-xl font-serif">
-                <Link to="" className="hover:scale-106 hover:text-white">Subjects</Link>
+                <Link to="/subjects" className="hover:scale-106 hover:text-white">Subjects</Link>
                 <Link to="" className="hover:scale-106 hover:text-white">LeaderBoard</Link>
                 <Link to="" className="hover:scale-106 hover:text-white">Pricing</Link>
                 <Link to="/login" className="bg-white text-black px-4 py-1 rounded-full 
