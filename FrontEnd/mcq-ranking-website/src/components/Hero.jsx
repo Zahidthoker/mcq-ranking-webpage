@@ -11,7 +11,7 @@ function Hero() {
                 Access a vast library of ranked multiple-choice questions across all subjects. Discover your strengths, improve your weaknesses, and climb the leaderboard as you progress.
             </p>
                 <div className="flex gap-4 mt-6">
-                    <Link to="/quiz"><button className="bg-blue-500 rounded-full px-4 py-1 drop-shadow-[0_0_5px_rgba(1,88,118,0.8)] hover:drop-shadow-[0_0_10px_rgba(1,88,118,0.8)] hover:scale-105" >Start Practicing Now</button></Link>
+                    <Link to="/subjects"><button className="bg-blue-500 rounded-full px-4 py-1 drop-shadow-[0_0_5px_rgba(1,88,118,0.8)] hover:drop-shadow-[0_0_10px_rgba(1,88,118,0.8)] hover:scale-105" >Start Practicing Now</button></Link>
                     <button className="bg-white rounded-full px-4 py-1 drop-shadow-[1px_1px_5px_rgba(1,81,118,1)] hover:scale-105 hover:drop-shadow-[0_0_10px_rgba(1,88,118,0.8)]">Explore Subjects</button>
                 </div>
             </div>

@@ -6,7 +6,7 @@ import Features from "./components/Features";
 import {Routes, Route} from "react-router-dom"
 import Subjects from "./pages/Subjects";
 import Login from "./pages/Login";
-import Quiz from "./pages/quiz";
+import Quiz from "./pages/Quiz";
 function App() {
   return (
     <div className="bg-gray-50 w-full">
@@ -21,7 +21,7 @@ function App() {
                 />
               <Route path="/subjects" element={<Subjects />} />
               <Route path="/login" element={<Login/>}/>
-              <Route path="/quiz" element={<Quiz/>}/>
+              <Route path="/quiz/:subject" element={<Quiz/>}/>
           </Routes>
       </div>
     </div>
